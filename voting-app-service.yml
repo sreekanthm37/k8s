@@ -11,5 +11,5 @@
    - port: 80
      targetPort: 80
    selector:
-     name: voting-service
-     app: demo-voting-app
+      name: voting-app-pod
+      app: demo-voting-app
